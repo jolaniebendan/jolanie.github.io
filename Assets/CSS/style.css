@@ -31,9 +31,9 @@ a {
          color: gold !important;
 
     }
-.navbar .container {
+.navbar> .container {
     display: flex;
-    align-items: cenetr;
+    align-items: center;
     justify-content: space-between;
 }
 
