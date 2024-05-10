@@ -1,0 +1,252 @@
+:root {
+
+    --bg1: #729cc4;
+    --bg2: RGB(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #ffffff;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner{
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 0%, 3%, 0.322), rgba(15, 15, 15, 0.212)),
+     url(https://www.fontanaforniusa.com/cdn/shop/articles/selection-of-different-pizzas-on-a-black-background.jpg?v=1666895671);
+     background-size:cover;
+    }
+    .navbar {
+       background: linear-gradient( to bottom, hsla(0, 2%, 17%, 0.829), rgba(44, 42, 42, 0.884)); 
+    }
+
+    .navbar .nav-link {
+        color: #FFFFFF;
+    }
+
+    .navbar #navbarNav .nav-link.active {
+         color: gold !important;
+
+    }
+
+    .navbar .nav-link:hover {
+        color: gold;
+    }
+
+    .navbar-brand img {
+        width: 10%;
+        
+    }  
+
+    .btn{
+        padding: 15px 30px;
+        transition: all 0.4s ease;
+        font-weight: 800;
+        border-radius: 0;
+    }
+
+    .btn-brand {
+        background-color: var(--brand);
+        
+    }
+
+    .btn-brand:hover {
+        background-color: transparent;
+        color: var(--brand);
+        border-color: var(--brand);
+    }
+
+    
+    .btn-outlined-brand {
+        background-color: transparent;
+        color:var(--brand);
+        border-color: var(--brand);
+    }
+
+    .btn-outlined-brand:hover {
+        background-color: var(--brand);
+        color: var(--bg1);
+    }
+/*about*/
+    #about {
+        background-color: rgb(10, 5, 1);
+        position: relative;
+        z-index: 1;
+        
+
+    }
+    section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+
+    }
+
+    #services {
+        background-color: rgb(201, 122, 27);
+    }
+
+    .btn-reviews {
+        border-color: #f2b03b !important;
+    color: #f2b03b;
+    }
+
+    
+    .icon-box-img {
+        width: 40%;
+    }
+    
+    .card  {
+        transition: background-color 0.3s, color 0.3s
+        
+    }
+
+    .card:hover {
+        background-color: #251f26;
+
+        color: white !important;
+    }
+
+    .card:hover .card-title
+    .card:hover .card-title
+    .card:hover .btn {
+        color: #ffffff;
+
+}
+#contact {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(330, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), 
+    url(https://www.fontanaforniusa.com/cdn/shop/articles/selection-of-different-pizzas-on-a-black-background.jpg?v=1666895671);
+    min-height: 100vh;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(330, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), 
+    url(https://www.fontanaforniusa.com/cdn/shop/articles/selection-of-different-pizzas-on-a-black-background.jpg?v=1666895671);
+    min-height: 100vh;
+}
+
+.testimonials {
+    padding: 30px;
+    background-color: rgb(243, 250, 251) ;
+    border: 1px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+#reviews {
+    background-color: #080109;
+}
+#reviews a {
+    text-decoration: none;
+    color: black;
+}
+
+ #faq {
+    background-color: rgb(201, 122, 27) ;
+ }
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.accordion-item {
+    margin-bottom: 20px; /* Add margin for spacing */
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: #ad461b;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.accordion-body {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #ffffff;
+}
+
+.faq-answer p {
+    margin-bottom: 0;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bg1);
+}
+
+/* Hover effect for FAQ question*/
+.accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: ""; /* Minus icon */
+}
+
+/* FOOTER */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 59px;
+    background-color: var(--bg1);
+
+}
+#footer {
+    background-color: #080109;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: var(--brand);
+
+}
+
+#review h2, #services h2 {
+    color: var(--bg1);
+}
+
+.btn-outline-light {
+    border-color: #f2b03b !important;
+    color: #f2b03b;
+}
+
+.navbar-brand_footer img {
+    width: 40% !important;
+    
+
+}
