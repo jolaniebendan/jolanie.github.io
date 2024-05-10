@@ -15,7 +15,7 @@ a {
 
 #banner{
     min-height: 100vh;
-    background: linear-gradient(to right, hsla(0, 0%, 3%, 0.322), rgba(15, 15, 15, 0.212)),
+    background: linear-gradient(to right, hsla(0, 73%, 4%, 0.178), rgba(0, 0, 0, 0.212)),
      url(https://www.fontanaforniusa.com/cdn/shop/articles/selection-of-different-pizzas-on-a-black-background.jpg?v=1666895671);
      background-size:cover;
     }
@@ -72,7 +72,7 @@ a {
     }
 /*about*/
     #about {
-        background-color: rgb(10, 5, 1);
+        background-color: rgb(3, 3, 3);
         position: relative;
         z-index: 1;
         
@@ -249,4 +249,14 @@ a {
     width: 40% !important;
     
 
+}
+
+@media screen and (max-width:767px) {
+    section{
+        padding:60px 20px;
+    }
+}
+
+.card {
+    margin-bottom: 20px;
 }
