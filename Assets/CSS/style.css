@@ -31,6 +31,9 @@ a {
          color: gold !important;
 
     }
+.navbar .container {
+    flex-wrap: inherit;
+}
 
     .navbar .nav-link:hover {
         color: gold;
