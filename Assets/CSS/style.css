@@ -32,7 +32,9 @@ a {
 
     }
 .navbar .container {
-    flex-wrap: inherit;
+    display: flex;
+    align-items: cenetr;
+    justify-content: space-between;
 }
 
     .navbar .nav-link:hover {
