@@ -75,6 +75,12 @@ a {
         
 
     }
+@media only screen and (max-width: 768px)
+{
+    p {
+        text-align: center;
+    }
+}
     section {
         padding-top: 150px;
         padding-bottom: 150px;
