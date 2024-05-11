@@ -38,11 +38,6 @@ a {
         color: gold;
     }
 
-    .navbar-brand img {
-        width: 10%;
-        
-    }  
-
     .btn{
         padding: 15px 30px;
         transition: all 0.4s ease;
